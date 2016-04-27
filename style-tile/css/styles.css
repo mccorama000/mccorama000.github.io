@@ -19,3 +19,32 @@ background: black;
  background: url(http://bgfons.com/upload/flag_texture610.jpg) no-repeat;
  background-size: cover;
 }
+
+.pattern-2 {
+    background: url("../img/starbucks.jpg");
+}
+
+
+/* Images */
+.imagery-1 img {
+    box-shadow: 
+        5px 5px 0 red,
+        10px 10px 0 white,
+        15px 15px 0 blue,;
+}
+
+/* Icons */
+.icon-1 {
+    border: none;
+}
+
+icon-2 {
+    background: url("../img/smartphone_icon.png");
+    background-size: contain;
+}
+
+/* Navagation */
+nav li {
+    list-style: none;
+    display: inline-block;
+}
