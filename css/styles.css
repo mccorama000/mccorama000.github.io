@@ -10,3 +10,29 @@ body {
 header img {
     width: 100px;
 }
+
+/* Main Nav */
+
+nav li {
+  list-style: none;
+  display: inline-block;  
+}
+
+
+nav a:link,
+nav a:visited {
+  background: teal;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover {
+  background: pink;
+  margin-left: .5em;
+}
+
+nav a: active {
+  background: pink;
+}
+
