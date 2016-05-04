@@ -1,46 +1,91 @@
+/* Typography */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: grey;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: teal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: darkgrey;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
+p   {
+    font-family: 'Work Sans', sans-serif;
+    color: darkgrey;
+}
+
 /* Color Palette */
 .color-1 {
-    background: red; }
+    background: pink; }
 
 .color-2 {
 background: white;
 }
 
 .color-3 {
-background: blue;
+background: teal;
 }
 
 .color-4 {
-background: black;
+background: grey;
 }
 
 /* Textures and Patterns */
 .pattern-1 {
- background: url(http://bgfons.com/upload/flag_texture610.jpg) no-repeat;
- background-size: cover;
+ background: url("../img/pattern1.png") repeat;
 }
 
 .pattern-2 {
-    background: url("../img/starbucks.jpg");
+    background: url("../img/pattern2.png") no-repeat;
 }
 
+.pattern-3 {
+    background: url("../img/pattern3.png") repeat;
+    
+}
 
 /* Images */
 .imagery-1 img {
-    box-shadow: 
-        5px 5px 0 red,
-        10px 10px 0 white,
-        15px 15px 0 blue,;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.imagery-2 img {
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.imagery-3 img {
+   max-height: 300px;
+   max-width: 200px;
 }
 
 /* Icons */
 .icon-1 {
+    background: url("../img/phone.png");
+    background-size: contain;
     border: none;
 }
 
-icon-2 {
-    background: url("../img/smartphone_icon.png");
+.icon-2 {
+    background: url("../img/home.png") no-repeat;
     background-size: contain;
+    border: none; 
+}
+
+.icon-3 {
+    background: url("../img/pics_icon.png") no-repeat;
+    background-size: contain;
+    border: none;   
 }
 
 /* Navagation */
@@ -50,8 +95,8 @@ nav li {
 }
 
 nav a:link {
-    background: red;
-    border-bottom: 2px solid blue;
+    background: pink;
+    border-bottom: 2px solid grey;
     color: white;
     border-radius: 5px;
     padding: 20px 20px 5px 20px;
@@ -64,16 +109,21 @@ nav a:visited {
 }
 
 nav a:focus {
-    border: 10 px solid red;
+    border: 10 px solid teal;
 }
 
 nav a:hover {
-    background: white;
-    color: red;
+    background: teal;
+    color: white;
     margin-top: 20px;
     
 }
 
 nav a:active {
-    background: black;
+    background: grey;
 }
+
+/* Typography */
+
+
+
