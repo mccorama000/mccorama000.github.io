@@ -1,9 +1,12 @@
 /* My Awesome Styling */
 
+/* Sitewide */
 
+body {
+    background: url("../img/bg_tile.png");
+}
 
 /* Header */
 header img {
-
-width: 100px;
+    width: 100px;
 }
