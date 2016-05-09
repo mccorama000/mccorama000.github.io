@@ -1,6 +1,7 @@
 /* My Awesome Styling */
 
 /* Sitewide */
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
 body {
     background: url("../img/bg_tile.png");
@@ -25,6 +26,7 @@ nav a:visited {
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
+    color: white;
 }
 
 nav a:hover {
@@ -34,5 +36,22 @@ nav a:hover {
 
 nav a: active {
   background: pink;
+}
+
+/* Quote */
+blockquote {
+    color: teal;
+    font-family: 'IM Fell Double Pica', serif;;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 
+    
+                
+    
+}
+
+/* Pic of Me */
+article img {
+     margin-top: 1.5em;
 }
 
