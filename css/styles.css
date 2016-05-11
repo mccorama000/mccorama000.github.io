@@ -2,6 +2,9 @@
 
 /* Sitewide */
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
 
 body {
     background: url("../img/bg_tile.png");
@@ -41,13 +44,34 @@ nav a: active {
 /* Quote */
 blockquote {
     color: teal;
-    font-family: 'IM Fell Double Pica', serif;;
+    font-family: 'Pacifico', cursive;
     font-size: 2em;
     text-align: center;
     text-shadow: 
+}
+
+h1 {
+    color: grey;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-align: center;  
+}
+
+h3 {
+    color: teal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2em;
     
-                
-    
+}
+
+h4 {
+    color: grey;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: grey;
 }
 
 /* Pic of Me */
