@@ -19,21 +19,25 @@ header img {
 
 nav li {
   list-style: none;
-  display: inline-block;  
+  display: inline-block;
+  
 }
 
 
 nav a:link,
 nav a:visited {
-  background: teal;
+  background: pink;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
     color: white;
+    border-radius: 75%;
+    font-family: 'PT Sans', sans-serif;
+    
 }
 
 nav a:hover {
-  background: pink;
+  background: teal;
   margin-left: .5em;
 }
 
@@ -65,17 +69,18 @@ h3 {
 }
 
 h4 {
-    color: grey;
+    color: darkgray;
     font-family: 'Work Sans', sans-serif;
 }
 
 p {
     font-family: 'Work Sans', sans-serif;
-    color: grey;
+    color: darkgray;
 }
 
 /* Pic of Me */
 article img {
      margin-top: 1.5em;
+     border-radius: 50%;
 }
 
