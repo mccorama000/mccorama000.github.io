@@ -8,6 +8,7 @@
 
 body {
     background: url("../img/bg_tile.png");
+    margin: 2em;
 }
 
 /* Header */
@@ -33,6 +34,9 @@ nav a:visited {
     color: white;
     border-radius: 75%;
     font-family: 'PT Sans', sans-serif;
+    transition: all .5s; 
+    
+    
     
 }
 
@@ -51,36 +55,41 @@ blockquote {
     font-family: 'Pacifico', cursive;
     font-size: 2em;
     text-align: center;
-    text-shadow: 
+    letter-spacing: 1px; 
 }
 
 h1 {
     color: grey;
     font-family: 'Pacifico', cursive;
     font-size: 3em;
-    text-align: center;  
+    text-align: center;
+    letter-spacing: 3px;
 }
 
 h3 {
     color: teal;
     font-family: 'PT Sans', sans-serif;
     font-size: 2em;
+
     
 }
 
 h4 {
-    color: darkgray;
+    color: teal;
     font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
-p {
+p, dd, dt, li {
     font-family: 'Work Sans', sans-serif;
     color: darkgray;
+    letter-spacing: .3px;
 }
+
+
 
 /* Pic of Me */
 article img {
-     margin-top: 1.5em;
-     border-radius: 50%;
+   
 }
 
