@@ -14,13 +14,22 @@ body {
 /* Header */
 header img {
     width: 100px;
+    border-radius: 50%;
+    width: 125%;
+    margin-left: 5em;
 }
 
 /* Main Nav */
 
+nav {
+    margin-left: 18em;
+}
+
 nav li {
   list-style: none;
   display: inline-block;
+
+    
   
 }
 
@@ -34,7 +43,8 @@ nav a:visited {
     color: white;
     border-radius: 75%;
     font-family: 'PT Sans', sans-serif;
-    transition: all .5s; 
+    transition: all .5s;
+   
     
     
     
