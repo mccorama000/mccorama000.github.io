@@ -9,8 +9,7 @@
 body {
     background: url("../img/bg_tile.png");
     margin: 2em;
-    border: solid 3px grey;
-    opacity: 50%;
+    
     
 }
 
@@ -101,6 +100,7 @@ h3 {
     color: teal;
     font-family: 'PT Sans', sans-serif;
     font-size: 2em;
+    text-align: center;
 
     
 }
@@ -124,8 +124,9 @@ article img {
    
 }
 
+/* Bio & Professional Objectives */
 .grid-12 {
     text-align: left;
-    border: solid 10px black; 
+    
 }
 
