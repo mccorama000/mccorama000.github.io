@@ -9,20 +9,41 @@
 body {
     background: url("../img/bg_tile.png");
     margin: 2em;
+    border: solid 3px grey;
+    opacity: 50%;
+    
 }
 
 /* Header */
 header img {
     width: 100px;
     border-radius: 50%;
-    width: 125%;
+    width: 150%;
     margin-left: 5em;
+}
+
+
+/*Graphic Designer Header */
+.resume {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: teal;    
+}
+
+.job-titles {
+    font-size: 1.5em;
+    margin-top: -50px;
 }
 
 /* Main Nav */
 
 nav {
-    margin-left: 18em;
+    margin-left: 1em;
+    padding: 2em;
 }
 
 nav li {
@@ -101,5 +122,10 @@ p, dd, dt, li {
 /* Pic of Me */
 article img {
    
+}
+
+.grid-12 {
+    text-align: left;
+    border: solid 10px black; 
 }
 
