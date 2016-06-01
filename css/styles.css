@@ -1,132 +1,208 @@
-/* My Awesome Styling */
-
-/* Sitewide */
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
 
+title, meta, link, head {
+  display: none;
+}
+
 body {
+    display: block;
+    margin: 0 auto;
     background: url("../img/bg_tile.png");
-    margin: 2em;
-    
-    
 }
 
-/* Header */
-header img {
-    width: 100px;
-    border-radius: 50%;
-    width: 150%;
-    margin-left: 5em;
+main {
+  text-align: center;
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
-
-/*Graphic Designer Header */
-.resume {
-    position: relative;
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto 50px;
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    color: teal;    
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
 }
 
-.job-titles {
-    font-size: 1.5em;
-    margin-top: -50px;
+#nav nav {
+  text-align: center;
+    margin-bottom: 3%;
+    padding-top: 20px;
+    font-family: 'Molengo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}    
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
 }
 
-/* Main Nav */
-
-nav {
-    margin-left: 1em;
-    padding: 2em;
+#nav ul li {
+    display: inline-block;
+    margin: 40px;
 }
 
-nav li {
-  list-style: none;
-  display: inline-block;
+li {
+  text-align: -webkit-match-parent;
+  display: list-item;
+}
 
-    
+ul li a {
+    font-size: 20px;
+    list-style-position: inside;
+    text-decoration: none;
+    color: teal;
+}
+
+a {
+  background-color: transparent;
+
+a:-webkit-any-link {
+    cursor: auto;
+}
   
-}
-
-
-nav a:link,
-nav a:visited {
-  background: pink;
-  text-decoration: none;
-  padding: 1em;
-  transition: all .5s;
-    color: white;
-    border-radius: 75%;
-    font-family: 'PT Sans', sans-serif;
-    transition: all .5s;
-   
-    
-    
-    
-}
-
-nav a:hover {
-  background: teal;
-  margin-left: .5em;
-}
-
-nav a: active {
-  background: pink;
-}
-
-/* Quote */
-blockquote {
-    color: teal;
-    font-family: 'Pacifico', cursive;
-    font-size: 2em;
-    text-align: center;
-    letter-spacing: 1px; 
-}
-
+hr {
+    box-sizing: content-box;
+    height: 0;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
 h1 {
-    color: grey;
+    display: block;
     font-family: 'Pacifico', cursive;
-    font-size: 3em;
-    text-align: center;
-    letter-spacing: 3px;
-}
-
-h3 {
-    color: teal;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 2em;
-    text-align: center;
-
-    
-}
-
-h4 {
-    color: teal;
-    font-family: 'Work Sans', sans-serif;
-    letter-spacing: 1px;
-}
-
-p, dd, dt, li {
-    font-family: 'Work Sans', sans-serif;
-    color: darkgray;
-    letter-spacing: .3px;
-}
-
-
-
-/* Pic of Me */
-article img {
+    color: grey;
+    font-size: 65px;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    margin: 0.67em;
+  }
+  
+#bio img {
+    height: 500px;
    
-}
+  }
 
-/* Bio & Professional Objectives */
-.grid-12 {
+img {
+    border: 0;
+    float: left;
+    vertical-align: top;
+    width: 200px;
+  }
+  
+h2 {
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: teal;
+    letter-spacing: 0.04em;
+  }
+  
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    color: grey;
+    letter-spacing: 0.1em;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+  
+#bio p {
     text-align: left;
-    
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+#resume p {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+#resume .skills {
+    text-align: left;
+  }
+  
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    display: block;
+  }
+  
+p a {
+    color: grey;
+    text-decoration: none;
+  }
+  
+#portfolio {
+    padding-bottom: 700px;
+  
+#portfolio img {
+      display: inline;
+      margin: 0 50px 50px 50px;
+    }
+  
+.lb {
+    display: none;
+    position: fixed!important;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
 }
 
+#one.lb img {
+    min-width: 70%;
+  }
+  
+#two.lb img {
+    max-width: 45%;
+  }
+  
+#three.lb img {
+    max-width: 40%;
+  }
+  
+#four.lb img {
+    max-width: 40%;
+  }
+  
+#five.lb img {
+    max-width: 31%;
+  }
+  
+#contact {
+    min-width: 50%;
+    margin: 0 auto;
+  
+footer {
+      padding-top: 5%;
+      clear: both;
+      
+footer p {
+        float: left;
+        font-size: .8em;
+        font-family: 'Work Sans', sans-serif;
+        color: pink;
+        letter-spacing: 0.05em;
+        padding-top: 50px;
+      }  
+      
+footer ul li {
+    display: inline;
+    padding-left: 6%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: pink;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    float: right;
+}
