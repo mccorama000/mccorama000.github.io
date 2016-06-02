@@ -83,6 +83,7 @@ h1 {
   
 #bio img {
     height: 500px;
+    display: block;
    
   }
 
@@ -90,11 +91,14 @@ img {
     border: 0;
     float: left;
     vertical-align: top;
-    width: 200px;
+    max-width: 100%;
+    width: 356px;
+    height: 356px;
+    display: block;
+    
   }
   
 h2 {
-    display: block;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -140,6 +144,7 @@ p a {
   
 #portfolio {
     padding-bottom: 700px;
+    
 }
   
 #portfolio img {
@@ -210,3 +215,10 @@ footer ul li {
     text-transform: uppercase;
     float: right;
 }
+
+/*Portfolio Styling */
+
+input[type="checkbox"] {
+  display: none;
+}
+
