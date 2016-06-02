@@ -84,19 +84,21 @@ h1 {
 #bio img {
     height: 500px;
     display: block;
-   
   }
 
 img {
     border: 0;
-    float: left;
     vertical-align: top;
     max-width: 100%;
-    width: 356px;
-    height: 356px;
     display: block;
-    
-  }
+    border-radius: 50%;
+    }
+
+#me {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
   
 h2 {
     font-family: 'PT Sans', sans-serif;
