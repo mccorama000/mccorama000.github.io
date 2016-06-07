@@ -94,6 +94,13 @@ img {
     
     }
 
+.initial {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+
 
 #me {
     display: block;
@@ -174,6 +181,7 @@ p a {
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
+   
 }
 
 .lightbox img {
